@@ -4,13 +4,13 @@ Python Machine Learning w/ Zettafox
 
 - Run as follows::
 
-  $ python l_billou_documentation.py    #Python Built-in Methods Documentation
-  $ python l_billou_class.py            #Python Basic Class Example
-  $ python l_billou_pandas.py           #Python Data Analysis & Predictions
+  $ python documentation_file.py    #Python Built-in Methods Documentation
+  $ python class_file.py            #Python Basic Class Example
+  $ python pandas_file.py           #Python Data Analysis & Predictions
 
 ---------------------------------
 
-**l_billou_pandas.py**
+**pandas_file.py**
 ============================
 This file is a machine learning prediction script. Prepare a csv file you want to work on, place it in the same directory and finally execute the script.
 
@@ -73,7 +73,7 @@ This file is a machine learning prediction script. Prepare a csv file you want t
 
 -----------------------------------
 
-**l_billou_documentation.py**
+**documentation_file.py**
 ===============================
 This file is a self made documentation for python 2.7, it refers every built-in function and method in an enjoyable menu.
 
@@ -82,6 +82,6 @@ This file is a self made documentation for python 2.7, it refers every built-in 
 
 ----------------------------------
 
-**l_billou_class.py**
+**class_file.py**
 ===============================
 This file is a basic python class used as an example.
