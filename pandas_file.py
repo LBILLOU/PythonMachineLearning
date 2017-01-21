@@ -86,8 +86,8 @@ print('\nPredictions Examples')
 prediction = model.predict(data_test[features])
 reality = target_test
 result = pd.DataFrame({'prediction': prediction, 'reality': reality})
-result['predictionTest'] = 'right'
-result.loc[result.prediction == result.reality, 'predictionTest'] = 'wrong'
+result['predictionTest'] = 'wrong'
+result.loc[result.prediction == result.reality, 'predictionTest'] = 'right'
 print result.head()
 
 print '\nColumns weight for defining prediction'
@@ -101,8 +101,11 @@ for feature, imp in zip(features, model.feature_importances_):
 # Plotting column weight
 x = list(range(0, len(featurePlot)))
 plt.bar(x, impPlot, align='center')
-title = 'Attribute\'s Weight (%) \nFor {} Predictions in {}'
-plt.title(title.format(userTarget, filename))
+title = 'Attribute\'s Weight (%) for {} Predictions in {}'
+title += '\nPredictive Model Efficiency : {}%'
+efficiency = float('%.3f' % (model.score(data_test[features], target_test)))
+efficiency = efficiency * 100
+plt.title(title.format(userTarget, filename, efficiency))
 plt.xticks(x, featurePlot, rotation='vertical')
 plt.ylabel('Weight (%)')
 plt.xlabel('Attributes')
