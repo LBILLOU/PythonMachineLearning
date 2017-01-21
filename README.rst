@@ -4,13 +4,13 @@ Python Machine Learning w/ Zettafox
 
 - Run as follows::
 
-  $ python documentation_file.py    #Python Built-in Methods Documentation
-  $ python class_file.py            #Python Basic Class Example
-  $ python pandas_file.py           #Python Data Analysis & Predictions
+  $ python l_billou_documentation.py    #Python Built-in Methods Documentation
+  $ python l_billou_class.py            #Python Basic Class Example
+  $ python l_billou_pandas.py           #Python Data Analysis & Predictions
 
 ---------------------------------
 
-**pandas_file.py**
+**l_billou_pandas.py**
 ============================
 This file is a machine learning prediction script. Prepare a csv file you want to work on, place it in the same directory and finally execute the script.
 
@@ -58,8 +58,8 @@ This file is a machine learning prediction script. Prepare a csv file you want t
   $ ('date_of_birth', 0.13464309346409625)
   $
   $ Prediction Results
-  $ wrong    594
-  $ right    531
+  $ right    594
+  $ wrong    531
   $ Name: predictionTest, dtype: int64
   $
   $ Model Efficiency
@@ -68,20 +68,20 @@ This file is a machine learning prediction script. Prepare a csv file you want t
   $
   $ END OF SCRIPT
 
-.. image:: http://creativejunkie.fr/wp-content/uploads/2015/09/g-by-google.png
+.. image:: https://s24.postimg.org/rsktfz8np/bar.png
 
 
 -----------------------------------
 
-**documentation_file.py**
+**l_billou_documentation.py**
 ===============================
 This file is a self made documentation for python 2.7, it refers every built-in function and method in an enjoyable menu.
 
-.. image:: http://creativejunkie.fr/wp-content/uploads/2015/09/g-by-google.png
+.. image:: https://s24.postimg.org/hjsca5klx/menu.png
 
 
 ----------------------------------
 
-**class_file.py**
+**l_billou_class.py**
 ===============================
 This file is a basic python class used as an example.
